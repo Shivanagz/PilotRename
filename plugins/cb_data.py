@@ -6,7 +6,7 @@ from hachoir.parser import createParser
 from helper.database import db
 import os 
 import humanize
-from PIL import Image
+from pil import Image
 import time
 
 @Client.on_callback_query(filters.regex('cancel'))
